@@ -1,0 +1,55 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#stopWatch{
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 100px auto 0;
+    box-shadow: 0 15px 15px rgb(0,0,0,0.2);
+    border-radius: 50px;
+    
+}
+#stopWatch h2{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 73px;
+}
+.myTimer{
+    font-size: 35px;
+    font-weight: bold;
+}
+.myTimer input{
+    width: 70px;
+}
+input {
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#timeBtn :nth-child(2){
+    padding: 20px;
+    border-radius: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 117px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#timeBtn :nth-child(1){
+    padding: 10px;
+    width: 95px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#timeBtn :nth-child(3){
+    padding: 10px;
+    width: 95px;
+    font-weight: bold;
+    font-size: 20px;
+}
